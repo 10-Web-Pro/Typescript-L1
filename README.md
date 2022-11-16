@@ -26,3 +26,11 @@ const user={
 **Бонусное задание**:
 - Использовать формы(form inputs), и получать всю нужную информации с формы
 - Добавить метод, который автоматически удаляет пользователя, если он не проходит возрастное ограничение и отправляет уведомление об этом.  
+
+
+**Дополнительные материалы**:
+- https://code.visualstudio.com/docs/typescript/typescript-tutorial
+- http://typescript-lang.ru/docs/Basic%20Types.html (на русском)
+- https://www.typescriptlang.org/docs/handbook/basic-types.html
+
+ **Удачи!:)**
