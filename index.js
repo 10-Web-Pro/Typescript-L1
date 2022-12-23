@@ -65,7 +65,7 @@
 //         gender: selectGender(),
 //         isEligible: isCreate(),
 //       },
-//       msg: "User created successfully",
+//       msg: "User created successfully",Task
 //     };
 //   }
 //   return { msg: "User can't created" };
@@ -74,7 +74,7 @@
 // data ? console.log(msg, data) : console.log(msg);
 //Bonus Task
 const userNameInput = document.getElementById("name");
-const surNameInput = document.getElementById("surname");
+const sInput = document.getElementById("surname");
 const birthdayInput = document.getElementById("birthday");
 const genderInput = document.getElementById("gender");
 const passwordInput = document.getElementById("password");
@@ -90,7 +90,7 @@ userNameInput.onchange = (e) => {
     const target = e.target;
     state.userName = target.value;
 };
-surNameInput.onchange = (e) => {
+sInput.onchange = (e) => {
     const target = e.target;
     state.surName = target.value;
 };

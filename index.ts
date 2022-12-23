@@ -79,7 +79,7 @@
 // const { data, msg } = createUser();
 // data ? console.log(msg, data) : console.log(msg);
 
-//Bonus Task
+//Bonus TasK
 const userNameInput = document.getElementById("name") as HTMLInputElement;
 const surNameInput = document.getElementById("surname") as HTMLInputElement;
 const birthdayInput = document.getElementById("birthday") as HTMLInputElement;
