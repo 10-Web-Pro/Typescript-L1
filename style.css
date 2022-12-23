@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  padding: 2.5rem;
+}
+
+form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+  gap: 3rem;
+}
+
+form input,
+form select {
+  width: 50%;
+  height: 2.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+button {
+  width: 10rem;
+  padding: 0.8rem;
+  background-color: cyan;
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover {
+  background-color: rgb(25, 101, 101);
+}
