@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  padding: 2.3rem;
+}
+
+form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto auto;
+  align-items: center;
+  gap: 3rem;
+}
+
+form input,
+form select {
+  width: 50%;
+  height: 2.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  background-color: rgb(12, 240, 145);
+}
+
+button {
+  width: 10rem;
+  padding: 0.8rem;
+  background-color: rgb(240, 81, 7);
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #fff;
+}
