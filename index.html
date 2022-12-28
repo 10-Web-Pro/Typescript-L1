@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="inp">
+          <label class="label_style">firstName : </label>
+          <input
+            class="input_style"
+            type="text"
+            id="name"
+            placeholder="Enter your username"
+          />
+        </div>
+        <div class="inp">
+          <label class="label_style">lastName : </label>
+          <input
+            class="input_style"
+            type="text"
+            id="surname"
+            placeholder="Enter your surname"
+          />
+        </div>
+        <div class="inp">
+          <label class="label_style">Date of birth : </label>
+          <input
+            class="input_style"
+            type="text"
+            id="birthday"
+            placeholder="Enter birthday : (example: DD/MM/YYYY)"
+          />
+        </div>
+        <div class="inp">
+          <label class="label_style">Gender : </label>
+          <select name="gender" id="gender">
+            <option value="none" selected disabled hidden>Select gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="inp">
+          <label class="label_style">Password : </label>
+          <input
+            class="input_style"
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+          />
+        </div>
+        <div>
+          <button class="submit_btn" type="submit" id="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

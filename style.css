@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.inp{
+  display: flex;
+  flex-direction: column;
+}
+.input_style {
+  padding: 5px;
+  width: 250px;
+}
+.label_style {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 0 10px  0;
+}
+.submit_btn {
+  width: 100%;
+  padding: 10px;
+  margin: 15px;
+  background-color: blueviolet;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+  border-radius: 10px;
+}
+
