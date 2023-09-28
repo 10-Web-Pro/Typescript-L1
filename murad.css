@@ -1,0 +1,22 @@
+header{
+    text-align: center;
+    background-color: whitesmoke;
+}
+main{
+    background-color: whitesmoke;
+}
+footer{
+    background-color: whitesmoke;
+}
+.dc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.dcont{
+    background-color: darkgray;
+    width: 500px;
+    height: 400px;
+    flex-wrap: wrap;
+    text-align: center;
+}
